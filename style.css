@@ -1,0 +1,102 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base styles */
+body {
+    font-family: 'Caudex', serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Heading styles */
+h1 {
+    font-family: 'Gaegu', cursive;
+    font-size: 2.5em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Caudex', serif;
+    font-size: 1.8em;
+    color: #444;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+/* Image styling */
+img {
+    display: block;
+    max-width: 150px;
+    height: auto;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+}
+
+/* Paragraph styles */
+p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+/* Link styles */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #004499;
+}
+
+/* Social media links styling */
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 15px;
+}
+
+ul li {
+    margin: 0 10px;
+}
+
+ul li a {
+    font-size: 1.8em;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #0066cc;
+}
+
+/* Button styling for the 'Discover Le Wagon' link */
+a[href*="lewagon"] {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 15px auto;
+    font-size: 1.2em;
+    background-color: #0066cc;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+a[href*="lewagon"]:hover {
+    background-color: #004499;
+}
+
+
